@@ -28,7 +28,7 @@ conn.commit()
 
 @app.route("/")
 def index():
-    return render_template("register.html")
+    return "Backend is running. No frontend here."
 
 @app.route("/register", methods=["POST"])
 def register():
