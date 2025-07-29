@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # Replace with your actual PostgreSQL credentials
 conn = psycopg2.connect(
-    host="db.jpmhdydjycrojffhipxf.supabase.co",
+    host="aws-0-ap-southeast-1.pooler.supabase.com",
     port=5432,
     database="postgres",
-    user="postgres",
+    user="postgres.jpmhdydjycrojffhipxf",
     password="french4477",
     sslmode="require"
 )
